@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.examly.springapp.SpringappApplicationTests" time="6.98" tests="80" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.4.12/spring-boot-starter-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.12/spring-boot-starter-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.12/spring-boot-starter-logging-3.4.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.5.21/logback-classic-1.5.21.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.5.21/logback-core-1.5.21.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.4.12/spring-boot-starter-jdbc-3.4.12.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.6.36.Final/hibernate-core-6.6.36.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.jar:/home/coder/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.4.12/spring-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.4.12/spring-data-commons-3.4.12.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.12/spring-boot-starter-web-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.12/spring-boot-starter-json-3.4.12.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.5/jackson-databind-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.5/jackson-annotations-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.5/jackson-core-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.5/jackson-datatype-jdk8-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.5/jackson-datatype-jsr310-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.5/jackson-module-parameter-names-2.18.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.12/spring-boot-starter-tomcat-3.4.12.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.49/tomcat-embed-core-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.49/tomcat-embed-el-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.49/tomcat-embed-websocket-10.1.49.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.2.14/spring-webmvc-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.12/spring-boot-devtools-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.4.12/spring-boot-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.12/spring-boot-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.12/spring-boot-starter-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.4.12/spring-boot-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.12/spring-boot-test-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/home/coder/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/home/coder/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20260126100022133_3.jar /home/coder/project/workspace/springapp/target/surefire 2026-01-26T10-00-21_535-jvmRun1 surefire-20260126100022133_1tmp surefire_0-20260126100022133_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.4.12/spring-boot-starter-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.12/spring-boot-starter-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.12/spring-boot-starter-logging-3.4.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.5.21/logback-classic-1.5.21.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.5.21/logback-core-1.5.21.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.4.12/spring-boot-starter-jdbc-3.4.12.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.6.36.Final/hibernate-core-6.6.36.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.jar:/home/coder/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.4.12/spring-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.4.12/spring-data-commons-3.4.12.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.12/spring-boot-starter-web-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.12/spring-boot-starter-json-3.4.12.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.5/jackson-databind-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.5/jackson-annotations-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.5/jackson-core-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.5/jackson-datatype-jdk8-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.5/jackson-datatype-jsr310-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.5/jackson-module-parameter-names-2.18.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.12/spring-boot-starter-tomcat-3.4.12.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.49/tomcat-embed-core-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.49/tomcat-embed-el-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.49/tomcat-embed-websocket-10.1.49.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.2.14/spring-webmvc-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.12/spring-boot-devtools-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.4.12/spring-boot-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.12/spring-boot-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.12/spring-boot-starter-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.4.12/spring-boot-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.12/spring-boot-test-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/home/coder/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/home/coder/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/coder"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/coder/project/workspace/springapp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20260126100022133_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+10-Debian-1deb11u1"/>
+    <property name="user.name" value="coder"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.113+"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/coder/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="680"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="17.0.17+10-Debian-1deb11u1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.364">
+    <system-out><![CDATA[10:00:22.776 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:00:22.902 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
+10:00:23.020 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.4.12)
+
+2026-01-26T10:00:23.250Z  INFO 680 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 680 (started by coder in /home/coder/project/workspace/springapp)
+2026-01-26T10:00:23.251Z  INFO 680 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-01-26T10:00:24.105Z  INFO 680 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-26T10:00:24.215Z  INFO 680 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 5 JPA repository interfaces.
+2026-01-26T10:00:24.882Z  INFO 680 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-26T10:00:24.923Z  INFO 680 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-26T10:00:24.995Z  INFO 680 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-26T10:00:25.336Z  INFO 680 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-26T10:00:25.409Z  INFO 680 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-26T10:00:25.801Z  INFO 680 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aab5b31
+2026-01-26T10:00:25.802Z  INFO 680 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-26T10:00:25.820Z  WARN 680 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-26T10:00:25.821Z  WARN 680 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-01-26T10:00:25.880Z  INFO 680 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-26T10:00:27.301Z  INFO 680 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: alter table customer_return drop foreign key FKk60hc709w3pjf2nv94abuyerv
+Hibernate: alter table purchase_order drop foreign key FKexpbvwwqjgow03uejxl3x8qkc
+Hibernate: alter table purchase_order_item drop foreign key FK862c1bxmhyqs27x7ae3phph5e
+Hibernate: alter table purchase_order_item drop foreign key FKs3uske0upa0jymmqr7dwgbrsx
+Hibernate: drop table if exists customer_return
+Hibernate: drop table if exists product
+Hibernate: drop table if exists purchase_order
+Hibernate: drop table if exists purchase_order_item
+Hibernate: drop table if exists supplier
+Hibernate: create table customer_return (quantity integer not null, customer_return_id bigint not null auto_increment, product_product_id bigint, return_date datetime(6), reason varchar(255), primary key (customer_return_id)) engine=InnoDB
+Hibernate: create table product (price float(53) not null, stock_quantity integer not null, product_id bigint not null auto_increment, description varchar(255), product_name varchar(255), primary key (product_id)) engine=InnoDB
+Hibernate: create table purchase_order (order_date datetime(6), purchase_order_id bigint not null auto_increment, supplier_supplier_id bigint, order_number varchar(255), status varchar(255), primary key (purchase_order_id)) engine=InnoDB
+Hibernate: create table purchase_order_item (quantity integer not null, unit_price float(53) not null, product_product_id bigint, purchase_order_item_id bigint not null auto_increment, purchase_order_purchase_order_id bigint, primary key (purchase_order_item_id)) engine=InnoDB
+Hibernate: create table supplier (supplier_id bigint not null auto_increment, address varchar(255), contact_number varchar(255), email varchar(255), supplier_name varchar(255), primary key (supplier_id)) engine=InnoDB
+Hibernate: alter table customer_return add constraint FKk60hc709w3pjf2nv94abuyerv foreign key (product_product_id) references product (product_id)
+Hibernate: alter table purchase_order add constraint FKexpbvwwqjgow03uejxl3x8qkc foreign key (supplier_supplier_id) references supplier (supplier_id)
+Hibernate: alter table purchase_order_item add constraint FK862c1bxmhyqs27x7ae3phph5e foreign key (product_product_id) references product (product_id)
+Hibernate: alter table purchase_order_item add constraint FKs3uske0upa0jymmqr7dwgbrsx foreign key (purchase_order_purchase_order_id) references purchase_order (purchase_order_id)
+2026-01-26T10:00:27.878Z  INFO 680 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-26T10:00:28.181Z  WARN 680 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-26T10:00:28.500Z  INFO 680 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-01-26T10:00:28.500Z  INFO 680 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-01-26T10:00:28.502Z  INFO 680 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-01-26T10:00:28.529Z  INFO 680 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 5.522 seconds (process running for 6.349)
+]]></system-out>
+  </testcase>
+  <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_ProductModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_SupplierModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrderModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrderItemModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_CustomerReturnModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_Product_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_Product_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_Supplier_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_Supplier_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_CustomerReturn_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrder_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.009"/>
+  <testcase name="Day4_test_PurchaseOrderItem_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day5_test_ProductRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.005"/>
+  <testcase name="Day5_test_SupplierRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_PurchaseOrderRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_PurchaseOrderItemRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_CustomerReturnRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_ProductRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_SupplierRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_CustomerReturnRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_PurchaseOrderRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day5_test_PurchaseOrderItemRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_ProductController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_SupplierController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_CustomerReturnController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_PurchaseOrderItemController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_ProductController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_SupplierController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_CustomerReturnController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderItemController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_ProductController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_SupplierController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_testCreateProduct_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.09"/>
+  <testcase name="Day6_testGetAllProducts_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.131">
+    <system-out><![CDATA[Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0
+]]></system-out>
+  </testcase>
+  <testcase name="Day7_test_ProductController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day7_test_ProductController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day7_test_SupplierController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day7_test_SupplierController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day7_test_PurchaseOrderController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_CustomerReturnController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_ProductService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_SupplierService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_CustomerReturnService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_PurchaseOrderService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_PurchaseOrderItemService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_ProductServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_SupplierServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_CustomerReturnServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_PurchaseOrderServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_PurchaseOrderItemServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_testAddProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.075">
+    <system-out><![CDATA[Hibernate: insert into product (description,price,product_name,stock_quantity) values (?,?,?,?)
+]]></system-out>
+  </testcase>
+  <testcase name="Day9_testGetAllProducts" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
+    <system-out><![CDATA[Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0
+]]></system-out>
+  </testcase>
+  <testcase name="Day9_testGetProductById" classname="com.examly.springapp.SpringappApplicationTests" time="0.016">
+    <system-out><![CDATA[Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day9_testUpdateProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.019">
+    <system-out><![CDATA[Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_id=?
+Hibernate: update product set description=?,price=?,product_name=?,stock_quantity=? where product_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day10_testAddSupplier" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+    <system-out><![CDATA[Hibernate: insert into supplier (address,contact_number,email,supplier_name) values (?,?,?,?)
+]]></system-out>
+  </testcase>
+  <testcase name="Day10_testGetAllSuppliers" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[Hibernate: select s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from supplier s1_0
+]]></system-out>
+  </testcase>
+  <testcase name="Day10_testGetSupplierById" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[Hibernate: select s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from supplier s1_0 where s1_0.supplier_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day10_testUpdateSupplier" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
+    <system-out><![CDATA[Hibernate: select s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from supplier s1_0 where s1_0.supplier_id=?
+Hibernate: update supplier set address=?,contact_number=?,email=?,supplier_name=? where supplier_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day11_testAddPurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.021">
+    <system-out><![CDATA[Hibernate: insert into purchase_order (order_date,order_number,status,supplier_supplier_id) values (?,?,?,?)
+]]></system-out>
+  </testcase>
+  <testcase name="Day11_testGetAllPurchaseOrders" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
+    <system-out><![CDATA[Hibernate: select po1_0.purchase_order_id,po1_0.order_date,po1_0.order_number,po1_0.status,po1_0.supplier_supplier_id from purchase_order po1_0
+Hibernate: select s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from supplier s1_0 where s1_0.supplier_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day11_testGetPurchaseOrderById" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <system-out><![CDATA[Hibernate: select po1_0.purchase_order_id,po1_0.order_date,po1_0.order_number,po1_0.status,s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from purchase_order po1_0 left join supplier s1_0 on s1_0.supplier_id=po1_0.supplier_supplier_id where po1_0.purchase_order_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day11_testUpdatePurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+    <system-out><![CDATA[Hibernate: select po1_0.purchase_order_id,po1_0.order_date,po1_0.order_number,po1_0.status,s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from purchase_order po1_0 left join supplier s1_0 on s1_0.supplier_id=po1_0.supplier_supplier_id where po1_0.purchase_order_id=?
+Hibernate: update purchase_order set order_date=?,order_number=?,status=?,supplier_supplier_id=? where purchase_order_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day12_testAddCustomerReturn" classname="com.examly.springapp.SpringappApplicationTests" time="0.014">
+    <system-out><![CDATA[Hibernate: insert into customer_return (product_product_id,quantity,reason,return_date) values (?,?,?,?)
+]]></system-out>
+  </testcase>
+  <testcase name="Day12_testGetAllCustomerReturns" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
+    <system-out><![CDATA[Hibernate: select cr1_0.customer_return_id,cr1_0.product_product_id,cr1_0.quantity,cr1_0.reason,cr1_0.return_date from customer_return cr1_0
+Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day12_testGetCustomerReturnById" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[Hibernate: select cr1_0.customer_return_id,p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity,cr1_0.quantity,cr1_0.reason,cr1_0.return_date from customer_return cr1_0 left join product p1_0 on p1_0.product_id=cr1_0.product_product_id where cr1_0.customer_return_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day13_testAddPurchaseOrderItem" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
+    <system-out><![CDATA[Hibernate: insert into purchase_order_item (product_product_id,purchase_order_purchase_order_id,quantity,unit_price) values (?,?,?,?)
+]]></system-out>
+  </testcase>
+  <testcase name="Day13_testGetPurchaseOrderItemsByOrderId" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
+    <system-out><![CDATA[Hibernate: select poi1_0.purchase_order_item_id,poi1_0.product_product_id,poi1_0.purchase_order_purchase_order_id,poi1_0.quantity,poi1_0.unit_price from purchase_order_item poi1_0
+Hibernate: select p1_0.product_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_id=?
+Hibernate: select po1_0.purchase_order_id,po1_0.order_date,po1_0.order_number,po1_0.status,s1_0.supplier_id,s1_0.address,s1_0.contact_number,s1_0.email,s1_0.supplier_name from purchase_order po1_0 left join supplier s1_0 on s1_0.supplier_id=po1_0.supplier_supplier_id where po1_0.purchase_order_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="Day14_test_Exception_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day14_test_ResourceNotFoundException_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day15_testAOPLogFileExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+</testsuite>
