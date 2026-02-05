@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import com.examly.springapp.model.Product;
 import com.examly.springapp.repository.ProductRepo;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
@@ -26,13 +27,11 @@ public class ProductController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Product>> getAllProducts() {
-        List<Product> list = productRepo.findAll();
-        if (list.isEmpty()) {
-            return ResponseEntity.noContent().build();
-        }
-        return ResponseEntity.ok(list);
-    }
+public ResponseEntity<List<Product>> getAllProducts() {
+    List<Product> list = productRepo.findAll();
+    return ResponseEntity.ok(list); 
+}
+
     @DeleteMapping("/{id}")
 public ResponseEntity<Void> deleteProduct(@PathVariable Long id) {
     productRepo.deleteById(id);

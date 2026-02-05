@@ -1,5 +1,6 @@
 package com.examly.springapp.controller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,31 +12,42 @@ import com.examly.springapp.repository.PurchaseOrderRepo;
 
 @RestController
 @RequestMapping("/api/purchase-orders")
+@CrossOrigin(origins = "http://localhost:5173")
 public class PurchaseOrderController {
 
     @Autowired
-    private PurchaseOrderRepo purchaseOrderRepo;
+    private PurchaseOrderRepo repo;
 
+    // CREATE
     @PostMapping
-    public ResponseEntity<PurchaseOrder> addPurchaseOrder(@RequestBody PurchaseOrder purchaseOrder) {
-        return ResponseEntity.status(HttpStatus.CREATED)
-                .body(purchaseOrderRepo.save(purchaseOrder));
+    public ResponseEntity<PurchaseOrder> add(@RequestBody PurchaseOrder po) {
+        po.setOrderDate(LocalDateTime.now());
+        return ResponseEntity.status(HttpStatus.CREATED).body(repo.save(po));
     }
 
+    // READ ALL
     @GetMapping
-    public ResponseEntity<List<PurchaseOrder>> getAllPurchaseOrders() {
-        return ResponseEntity.ok(purchaseOrderRepo.findAll());
+    public List<PurchaseOrder> getAll() {
+        return repo.findAll();
     }
 
+    // READ ONE (VIEW)
     @GetMapping("/{id}")
-    public ResponseEntity<PurchaseOrder> getPurchaseOrder(@PathVariable Long id) {
-        return ResponseEntity.ok(purchaseOrderRepo.findById(id).get());
+    public PurchaseOrder getOne(@PathVariable Long id) {
+        return repo.findById(id).orElseThrow();
     }
 
+    // UPDATE STATUS
     @PutMapping("/{id}")
-    public ResponseEntity<PurchaseOrder> updatePurchaseOrder(@PathVariable Long id,
-                                                             @RequestBody PurchaseOrder purchaseOrder) {
-        purchaseOrder.setPurchaseOrderId(id);
-        return ResponseEntity.ok(purchaseOrderRepo.save(purchaseOrder));
+    public PurchaseOrder update(@PathVariable Long id,
+                                @RequestBody PurchaseOrder po) {
+        po.setPurchaseOrderId(id);
+        return repo.save(po);
+    }
+
+    // DELETE
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Long id) {
+        repo.deleteById(id);
     }
 }
